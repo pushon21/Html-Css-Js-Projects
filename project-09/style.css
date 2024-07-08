@@ -1,0 +1,30 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#obj {
+  width: 669px;
+  height: 269px;
+  background-color: #005504;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(assets/image/bg.png);
+  border: none;
+  border-radius: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.newdiv {
+  height: 169px;
+  width: 69px;
+  position: absolute;
+}
+
+.newdiv img {
+  width: 100%;
+  height: 100%;
+}

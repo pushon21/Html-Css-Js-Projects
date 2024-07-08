@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+#obj {
+  text-align: center;
+  height: 60%;
+  width: 60%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  overflow: hidden;
+}
+
+#obj h1 {
+  color: #004b0a;
+  font-size: 86px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#obj p {
+  font-size: 33px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.newDiv {
+  overflow: hidden;
+  height: 170px;
+  width: 100px;
+  position: absolute;
+  border-radius: 12px;
+}
+
+.newDiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translateY(100%);
+}

@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#rect {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  border: 3;
+  background-image: url(assets/image/train-3803_256.gif);
+  border-radius: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main_section {
+  width: 100%;
+  height: 100vh;
+}
